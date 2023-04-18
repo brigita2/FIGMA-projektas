@@ -1,0 +1,72 @@
+@use 'variables/colors.scss';
+
+.footer-wrapper {
+    background-color: #F0DCC5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 150px 100px 150px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.sections {
+    width: 25%;
+}
+.footer-logo {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.footer-wrapper .sections p {
+    filter: none;
+    color: rgba(79, 79, 79, 1);
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
+.sections .text-wrapper {
+    color: rgba(79, 79, 79, 1);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.copyrights {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+.list-title {
+    font-size: 20px;
+    text-transform: none;
+}
+
+ul {
+    padding: 0;
+    li {
+        list-style: none;
+        padding-bottom: 17px;
+        a {
+            text-transform: none;
+            padding-left: 0;
+        }
+    }
+}
+label {
+    text-transform: uppercase;
+    color: rgb(100, 123, 100);
+    font-size: 20px;
+}
+input#email-address {
+    padding-bottom: 88px;
+    padding-right: 146px;
+    padding-left: 19px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border: 0;
+    margin-top: 20px;
+}
